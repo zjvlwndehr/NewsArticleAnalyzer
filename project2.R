@@ -2,8 +2,7 @@
 #© 2020. Taehyun Park. All Rights Reserved
 #Github. zjvlwndehr
 
-init <-  function()
-{
+
   install.packages("rvest")
   library(rvest) #html, xml crawling
   Sys.setenv(JAVA_HOME = "C:\\Program Files\\Java\\jdk-14.0.1")
@@ -38,8 +37,6 @@ init <-  function()
     args <- gsub('[~!@#$%&*()_+=?<>]','', args)
   }
 
-}
-init()
 
 text1 = ""
 
